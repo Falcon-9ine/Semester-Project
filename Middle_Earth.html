@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Middle-earth Journey Tracker</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="Middle_Earth.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <header>
+        <h1>Middle-earth Journey Tracker</h1>
+        <nav>
+            <ul>
+                <li><a href="#hobbiton" class="nav-button">Hobbiton</a></li>
+                <li><a href="#bree" class="nav-button">Bree</a></li>
+                <li><a href="#rivendell" class="nav-button">Rivendell</a></li>
+                <li><a href="#mines_of_moria" class="nav-button">Mines Of Moria</a></li>
+                <li><a href="#lothlorian" class="nav-button">Lothlorian</a></li>
+                <li><a href="#sarn_gebir" class="nav-button">Sarn Gebir</a></li>
+                <li><a href="#morannon" class="nav-button">Morannon</a></li>
+                <li><a href="#minas_morgul" class="nav-button">Minas Morgul</a></li>
+                <li><a href="#mount_doom" class="nav-button">Mount Doom</a></li>
+                <!-- Add additional list items for each point on the map -->
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="map"></div>
+        <div class="input-container">
+            <input type="number" id="userDistance" placeholder="Enter your distance traveled (miles)">
+            <button onclick="placeMarker()">Submit</button>
+        </div>
+    </main>
+    <footer>
+        <p>Follow in the footsteps of Hobbits...</p>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="Middle_earth.js"></script> <!-- Your JavaScript will be in an external file -->
+</body>
+</html>
+
+<!--testing-->

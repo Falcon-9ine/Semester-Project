@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Import a font that has a 'Lord of the Rings' feel */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@font-face {
+    font-family: 'Ringbearer';
+    src: url('Ringbearer/RINGM___.TTF') format('truetype'); /* for a TTF file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #f4f1de;
+    background-image: url('shire.jpg'); /* Replace with an actual parchment background image */
+    color: #3e3a29;
+    font-family: 'Ringbearer';
+    src: url('Ringbearer/RINGM___.TTF') format('truetype'); /* for a TTF file */
+}
+
+
+
+header {
+    margin-top: 18px;
+    background: rgba(187, 232, 216, 0.72);
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 3px solid #8a7a50;
+}
+
+header h1 {
+    color: red;
+    text-shadow: 1px 1px 2px #3e3a29;
+    font-size: 60px;
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Use flexbox for horizontal layout */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav ul li {
+    margin: 10px; /* Space out the buttons */
+}
+
+.nav-button {
+    background-color: #8d7b65; /* Button-like background color */
+    border: none; /* No border by default */
+    padding: 10px 20px; /* Padding inside the buttons */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 1em; /* Set font size */
+    transition: all 0.3s; /* Smooth transition for hover effects */
+    cursor: pointer; /* Cursor to signify button functionality */
+}
+
+.nav-button:hover,
+.nav-button:active {
+    background-color: #a9927d; /* Slightly lighter on hover/active */
+}
+
+main {
+    position: relative;
+    max-width: 1200px; /* Limit the width of the main content */
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#map {
+    height: 70vh; /* Adjust height as needed */
+    border: 5px solid #c9b458;
+}
+
+.input-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(201, 180, 88, 0.9);
+}
+
+#map {
+    height: 90vh;
+    width: auto; /* Adjust the width as needed */
+    max-width: 100%; /* Make sure the map does not exceed the width of the container */
+    margin: auto; /* Center the map in the container if it's smaller than the width */
+}
