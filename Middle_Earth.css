@@ -16,6 +16,7 @@ body {
     color: #3e3a29;
     font-family: 'Ringbearer';
     src: url('Ringbearer/RINGM___.TTF') format('truetype'); /* for a TTF file */
+    
 }
 
 
@@ -29,7 +30,7 @@ header {
 }
 
 header h1 {
-    color: red;
+    color: rgb(214, 106, 19);
     text-shadow: 1px 1px 2px #3e3a29;
     font-size: 60px;
 }
