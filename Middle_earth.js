@@ -1,4 +1,17 @@
 
+// Name: <your name goes here – first and last minimum>
+    // <Middle Earth Journey Tracker>
+    //
+    // Purpose: <This program will allow a user to input a distance they travelled, and will show them their relative position on the route taken by the 
+    //            characters in The Lord of the Rings.>
+    //
+    // Certification of Authenticity:
+    // <include one of the following>
+    // I heavily relied on stack overflow to help with placemarker function to interpolate route position and drop a waypoint. I also relied on youtube tutorials to help with CRS, setting up leaflet, and dropping initial waypoints.  Euclidean distance formula found on google.
+    //
+    // Input: <No user input in js.  Reserved for index page>
+    // Output: <will display a waypoint on the map route showing the users position> 
+
 // Initialize the map with Simple CRS (Coordinate Reference System)
 var map = L.map('map', {
     crs: L.CRS.Simple,
